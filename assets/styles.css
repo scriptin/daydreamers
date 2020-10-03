@@ -4,16 +4,16 @@ body {
     background-size: cover;
 }
 
+.header-title {
+    text-shadow: 1px 1px 0 white, 2px 2px 0 white, 3px 3px 0 grey;
+}
+
 .header-bg {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(215, 246, 255, 0.9));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(235, 252, 255, 0.9));
 }
 
-.normal-bg {
+.section-bg {
     background: rgba(255, 255, 255, 0.9);
-}
-
-.transparent-bg {
-    background: rgba(255, 255, 255, 0.8);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,8 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .big-icon {
-    font-size: 4rem;
-    line-height: 10rem;
-    height: 10rem;
+    font-size: 3rem;
+    line-height: 6rem;
+    height: 9rem;
+    width: 9rem;
     text-align: center;
+    color: #333333;
+    background: rgba(255, 255, 255, 0.8);
 }
