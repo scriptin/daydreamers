@@ -1,3 +1,5 @@
 .idea
 *.ipr
 *.iws
+
+assets/*.zip

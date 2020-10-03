@@ -1,0 +1,52 @@
+body {
+    background-image: url("sea.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header-bg {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(215, 246, 255, 0.9));
+}
+
+.normal-bg {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.transparent-bg {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', var(--bs-font-sans-serif);
+}
+
+.btn i.fas, .btn i.fab {
+    margin-right: 0.5rem;
+}
+
+.list-inline-item {
+    margin-bottom: 0.5rem;
+}
+
+.show-md {
+    display: none;
+}
+.hide-md {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .show-md {
+        display: block;
+    }
+    .hide-md {
+        display: none;
+    }
+}
+
+.big-icon {
+    font-size: 4rem;
+    line-height: 10rem;
+    height: 10rem;
+    text-align: center;
+}
