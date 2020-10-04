@@ -1,7 +1,38 @@
 body {
-    background-image: url("sea.jpg");
+    background-color: #2f8abb;
     background-attachment: fixed;
     background-size: cover;
+}
+
+/*
+    BG sizes:
+    tiny - 480x640
+    small - 960x1280
+    medium - 1440x1920
+    large - 2160x2880
+*/
+@media (max-width: 500px) {
+    body {
+        background-image: url("sea-tiny.jpg");
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-image: url("sea-small.jpg");
+    }
+}
+
+@media (max-width: 1500px) {
+    body {
+        background-image: url("sea-medium.jpg");
+    }
+}
+
+@media (min-width: 1501px) {
+    body {
+        background-image: url("sea-large.jpg");
+    }
 }
 
 .header-title {
